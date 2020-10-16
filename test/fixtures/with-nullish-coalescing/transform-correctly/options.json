@@ -1,0 +1,6 @@
+{
+  "plugins": [
+    "@babel/proposal-nullish-coalescing-operator",
+    "../../../../src"
+  ]
+}
