@@ -106,5 +106,5 @@ MIT, Copyright (c) 2020-2020 Louis Brunner
 [npm-image]: https://img.shields.io/npm/v/babel-plugin-transform-nullish-operator.svg
 [npm-url]: https://npmjs.org/package/babel-plugin-transform-nullish-operator
 [ci-image]: https://github.com/LouisBrunner/babel-plugin-transform-nullish-operator/workflows/Build/badge.svg
-[coveralls-image]: https://coveralls.io/repos/github/LouisBrunner/babel-plugin-transform-nullish-operator/badge.svg?branch=master
-[coveralls-url]: https://coveralls.io/github/LouisBrunner/babel-plugin-transform-nullish-operator?branch=master
+[coveralls-image]: https://coveralls.io/repos/github/LouisBrunner/babel-plugin-transform-nullish-operator/badge.svg?branch=main
+[coveralls-url]: https://coveralls.io/github/LouisBrunner/babel-plugin-transform-nullish-operator?branch=main
