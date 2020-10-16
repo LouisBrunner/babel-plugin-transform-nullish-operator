@@ -12,6 +12,7 @@ module.exports = {
     {
       displayName: 'test',
       verbose: true,
+      testMatch: ['<rootDir>/test/index.js'],
     },
     {
       displayName: 'lint',

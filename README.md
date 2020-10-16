@@ -1,4 +1,4 @@
-# `babel-plugin-transform-nullish-operator`
+# `babel-plugin-transform-nullish-operator` [![NPM Version][npm-image]][npm-url] ![Build Status][ci-image] [![Coverage Status][coveralls-image]][coveralls-url]
 
 This package is a `babel` plugin which can be used to emulate the Coffeescript existence operator (`a?`) in Babel using the new [coalescing nullish operator](https://babeljs.io/docs/en/next/babel-plugin-proposal-nullish-coalescing-operator.html) ([Stage 4 proposal](https://github.com/tc39/proposal-nullish-coalescing)).
 
@@ -77,6 +77,34 @@ var _object$foo;
 var fooExists = (_object$foo = object.foo) !== null && _object$foo !== void 0;
 ```
 
+## Linting
+
+Your linter might `EXISTS` as undefined (which is true, the symbol doesn't actually exists, it is only a placeholder), in that case you will need to explicitely add it in your config.
+
+Example using `eslint`:
+
+```json
+{
+  ...
+  "globals": {
+    "EXISTS": "readonly"
+  },
+  ...
+}
+```
+
 ## References & Thanks
 
 This is project is heavily based on Babel's [`@babel/plugin-proposal-nullish-coalescing-operator`](https://babeljs.io/docs/en/next/babel-plugin-proposal-nullish-coalescing-operator.html) (including code, tests, usage, etc).
+
+## License
+
+MIT, Copyright (c) 2020-2020 Louis Brunner
+
+
+
+[npm-image]: https://img.shields.io/npm/v/babel-plugin-transform-nullish-operator.svg
+[npm-url]: https://npmjs.org/package/babel-plugin-transform-nullish-operator
+[ci-image]: https://github.com/LouisBrunner/babel-plugin-transform-nullish-operator/workflows/Build/badge.svg
+[coveralls-image]: https://coveralls.io/repos/github/LouisBrunner/babel-plugin-transform-nullish-operator/badge.svg?branch=master
+[coveralls-url]: https://coveralls.io/github/LouisBrunner/babel-plugin-transform-nullish-operator?branch=master
