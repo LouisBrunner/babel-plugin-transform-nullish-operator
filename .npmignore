@@ -1,0 +1,20 @@
+# OS files
+.DS_Store
+
+# Input
+/src
+/test
+
+# npm
+node_modules
+npm-debug.log
+
+# Config
+babel.config.js
+.eslint*
+.github
+jest.config.js
+
+# Code coverage
+/.nyc_output
+/coverage
