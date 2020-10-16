@@ -61,12 +61,12 @@ require("@babel/core").transform("code", {
 
 Can be used to change the identifier which is used to trigger this alternative behavior of the nullish coalescing operator.
 
-#### Example with `{"identifier": "DO_YOU_EXISTS"}`
+#### Example with `{"identifier": "DO_YOU_EXIST"}`
 
 **In**
 
 ```javascript
-var fooExists = object.foo ?? DO_YOU_EXISTS;
+var fooExists = object.foo ?? DO_YOU_EXIST;
 ```
 
 **Out**
