@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-tranform-nullish-operator",
+  "name": "babel-plugin-transform-nullish-operator",
   "version": "1.0.0",
   "description": "A Babel plugin which emulates the `a?` existence check from CoffeeScript using the `??` syntax",
   "main": "lib/index.js",
